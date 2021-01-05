@@ -12,8 +12,6 @@ class Player
   def is_int(input)
     is_int = false
     (0..40).each do |i| 
-      puts i
-      puts input
       if i.to_s == input
         is_int = true
       end 
